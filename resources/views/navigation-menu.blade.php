@@ -16,8 +16,22 @@
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('groups') }}" :active="request()->routeIs('groups')">
+                        {{ __('Groups') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('group-chat') }}" :active="request()->routeIs('group-chat')">
+                        {{ __('Group Chat') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('review') }}" :active="request()->routeIs('review')">
+                        {{ __('Review') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('meeting') }}" :active="request()->routeIs('meeting')">
+                        {{ __('Meeting') }}
+                    </x-nav-link>
                 </div>
             </div>
+            
+
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
                 <!-- Teams Dropdown -->

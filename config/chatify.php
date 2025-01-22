@@ -6,7 +6,7 @@ return [
     | Messenger display name
     |-------------------------------------
     */
-    'name' => env('CHATIFY_NAME', 'Chatify Messenger'),
+    'name' => env('CHATIFY_NAME', 'Messages'),
 
     /*
     |-------------------------------------
@@ -44,8 +44,8 @@ return [
         'secret' => env('PUSHER_APP_SECRET'),
         'app_id' => env('PUSHER_APP_ID'),
         'options' => [
-            'cluster' => env('PUSHER_APP_CLUSTER', 'mt1'),
-            'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'mt1').'.pusher.com',
+            'cluster' => env('PUSHER_APP_CLUSTER', 'ap2'),
+            'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'ap2').'.pusher.com',
             'port' => env('PUSHER_PORT', 443),
             'scheme' => env('PUSHER_SCHEME', 'https'),
             'encrypted' => true,

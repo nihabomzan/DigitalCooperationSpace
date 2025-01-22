@@ -1,8 +1,5 @@
 <x-guest-layout>
     <x-authentication-card>
-        <!-- <x-slot name="logo">
-            <x-authentication-card-logo />
-        </x-slot> -->
 
         <!-- Heading Section with Inline CSS -->
         <h2 style="text-align: center; font-size: 1.5rem; font-weight: 600; color:rgb(7, 7, 7); margin-bottom: 1.5rem;">

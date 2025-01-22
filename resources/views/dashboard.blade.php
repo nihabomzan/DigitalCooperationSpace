@@ -11,4 +11,11 @@
             </div>
         </div>
     </div>
+
+    <!-- <div class="flex items-center justify-center min-h-screen relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/dashboard.png'); filter: blur(2px);"></div>
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+            <h1>This is home page</h1>
+    </div> -->
+
 </x-app-layout>
